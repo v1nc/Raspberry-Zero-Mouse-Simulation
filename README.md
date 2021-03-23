@@ -18,7 +18,8 @@ cp usb-hid /usr/bin/
 4. Reboot
 5. Clone https://github.com/aagallag/hid_gadget_test
 6. `make`
-7. Use hid-gadget-test to use the mouse:
+7. `chmod +x hid-gadget-test`
+8. Use hid-gadget-test to use the mouse:
 ```
 # move mouse (100,100)
 echo ' 100 100' | ./hid-gadget-test/dev/hidg0 mouse > /dev/null
