@@ -7,6 +7,7 @@ _There are many tutorials how to simulate keyboard input with the Raspberry Pi z
 ```
 echo "dwc2" >> /etc/modules
 echo "libcomposite" >> /etc/modules
+echo "dtoverlay=dwc2" >> /boot/config.txt
 ```
 
 2. Copy HID file:
