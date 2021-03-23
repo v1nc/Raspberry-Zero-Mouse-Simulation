@@ -15,10 +15,10 @@ cp usb-hid /usr/bin/
 ```
 
 3. Add `/usr/bin/usb-hid` to `rc.local`
-
-4. Clone https://github.com/aagallag/hid_gadget_test
-5. Make
-6. Use hid-gadget-test to use the mouse:
+4. Reboot
+5. Clone https://github.com/aagallag/hid_gadget_test
+6. `make`
+7. Use hid-gadget-test to use the mouse:
 ```
 # move mouse (100,100)
 echo ' 100 100' | ./hid-gadget-test/dev/hidg0 mouse > /dev/null
