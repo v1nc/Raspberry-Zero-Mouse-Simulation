@@ -27,3 +27,5 @@ echo ' 100 100' | ./hid-gadget-test/dev/hidg0 mouse > /dev/null
 # move mouse (100,100) and hold button b1
 echo '--hold --b1 100 100' | ./hid-gadget-test /dev/hidg0 mouse > /dev/null
 ```
+
+If you get something error like `Cannot send after transport endpoint shutdown`, the Raspberry Pi is not properly connected to your device or was not recognized. Reconnect your cables!
